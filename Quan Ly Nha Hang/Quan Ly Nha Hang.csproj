@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B1CA1C0-80D7-43EE-969B-EAC3BFE54613}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Quan_Ly_Nha_Hang</RootNamespace>
+    <AssemblyName>Quan Ly Nha Hang</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\BanBLL.cs" />
+    <Compile Include="BLL\GiamGiaBLL.cs" />
+    <Compile Include="BLL\GoiMonBLL.cs" />
+    <Compile Include="BLL\HoaDonBLL.cs" />
+    <Compile Include="BLL\Interface\IBanBLL.cs" />
+    <Compile Include="BLL\Interface\IGiamGiaBLL.cs" />
+    <Compile Include="BLL\Interface\IHoaDonBLL.cs" />
+    <Compile Include="BLL\Interface\IKhachHangBLL.cs" />
+    <Compile Include="BLL\Interface\ILoaiMonAnBLL.cs" />
+    <Compile Include="BLL\Interface\INhanVienBLL.cs" />
+    <Compile Include="BLL\Interface\IMonAnBLL.cs" />
+    <Compile Include="BLL\Interface\IPhucVuBLL.cs" />
+    <Compile Include="BLL\KhachHangBLL.cs" />
+    <Compile Include="BLL\LoaiMonAnBLL.cs" />
+    <Compile Include="BLL\MonAnBLL.cs" />
+    <Compile Include="BLL\NhanVienBLL.cs" />
+    <Compile Include="BLL\PhucVuBLL.cs" />
+    <Compile Include="DAL\BanDAL.cs" />
+    <Compile Include="DAL\GiamGiaDAL.cs" />
+    <Compile Include="DAL\GoiMonDAL.cs" />
+    <Compile Include="DAL\HoaDonDAL.cs" />
+    <Compile Include="DAL\Interface\IDAL.cs" />
+    <Compile Include="DAL\KhachHangDAL.cs" />
+    <Compile Include="DAL\LoaiMonAnDAL.cs" />
+    <Compile Include="DAL\MonAnDAL.cs" />
+    <Compile Include="DAL\NhanVienDAL.cs" />
+    <Compile Include="DAL\PhucVuDAL.cs" />
+    <Compile Include="DAL\UserDAL.cs" />
+    <Compile Include="DTO\Ban.cs" />
+    <Compile Include="DTO\GiamGia.cs" />
+    <Compile Include="DTO\GoiMon.cs" />
+    <Compile Include="DTO\HoaDon.cs" />
+    <Compile Include="DTO\HoaDonNhap.cs" />
+    <Compile Include="DTO\KhachHang.cs" />
+    <Compile Include="DTO\LoaiMonAn.cs" />
+    <Compile Include="DTO\MonAn.cs" />
+    <Compile Include="DTO\NhanVien.cs" />
+    <Compile Include="DTO\PhucVu.cs" />
+    <Compile Include="DTO\User.cs" />
+    <Compile Include="GUI\Form.cs" />
+    <Compile Include="GUI\FormBan.cs" />
+    <Compile Include="GUI\FormGiamGia.cs" />
+    <Compile Include="GUI\FormHoaDon.cs" />
+    <Compile Include="GUI\FormKhachHang.cs" />
+    <Compile Include="GUI\FormLoaiMonAn.cs" />
+    <Compile Include="GUI\FormMonAn.cs" />
+    <Compile Include="GUI\FormNhanVien.cs" />
+    <Compile Include="GUI\FormPhucVu.cs" />
+    <Compile Include="MenuChinh.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\MenuChinh.cs" />
+    <Compile Include="UI\Print.cs" />
+    <Compile Include="UI\Strings.cs" />
+    <Compile Include="UI\Table.cs" />
+    <Compile Include="UI\TienIch.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OnTap.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

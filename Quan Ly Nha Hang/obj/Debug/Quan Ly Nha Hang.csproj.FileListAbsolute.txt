@@ -1,0 +1,29 @@
+D:\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.csproj.AssemblyReference.cache
+D:\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.csproj.CoreCompileInputs.cache
+D:\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\bin\Debug\Quan Ly Nha Hang.exe.config
+D:\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\bin\Debug\Quan Ly Nha Hang.exe
+D:\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\bin\Debug\Quan Ly Nha Hang.pdb
+D:\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.exe
+D:\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.pdb
+D:\Đồ Án\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\bin\Debug\Quan Ly Nha Hang.exe.config
+D:\Đồ Án\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\bin\Debug\Quan Ly Nha Hang.exe
+D:\Đồ Án\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\bin\Debug\Quan Ly Nha Hang.pdb
+D:\Đồ Án\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.csproj.AssemblyReference.cache
+D:\Đồ Án\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.csproj.CoreCompileInputs.cache
+D:\Đồ Án\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.exe
+D:\Đồ Án\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.pdb
+D:\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.csproj.AssemblyReference.cache
+D:\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.csproj.CoreCompileInputs.cache
+D:\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.exe
+D:\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.pdb
+D:\Quan Ly Nha Hang\Quan Ly Nha Hang\bin\Debug\Quan Ly Nha Hang.exe.config
+D:\Quan Ly Nha Hang\Quan Ly Nha Hang\bin\Debug\Quan Ly Nha Hang.exe
+D:\Quan Ly Nha Hang\Quan Ly Nha Hang\bin\Debug\Quan Ly Nha Hang.pdb
+C:\Users\Do\Desktop\Quan Ly Nha Hang\Quan Ly Nha Hang\Quan Ly Nha Hang\bin\Debug\Quan Ly Nha Hang.exe.config
+C:\Users\Do\Desktop\Quan Ly Nha Hang\Quan Ly Nha Hang\Quan Ly Nha Hang\bin\Debug\Quan Ly Nha Hang.exe
+C:\Users\Do\Desktop\Quan Ly Nha Hang\Quan Ly Nha Hang\Quan Ly Nha Hang\bin\Debug\Quan Ly Nha Hang.pdb
+C:\Users\Do\Desktop\Quan Ly Nha Hang\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.csproj.AssemblyReference.cache
+C:\Users\Do\Desktop\Quan Ly Nha Hang\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.csproj.SuggestedBindingRedirects.cache
+C:\Users\Do\Desktop\Quan Ly Nha Hang\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.csproj.CoreCompileInputs.cache
+C:\Users\Do\Desktop\Quan Ly Nha Hang\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.exe
+C:\Users\Do\Desktop\Quan Ly Nha Hang\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Debug\Quan Ly Nha Hang.pdb

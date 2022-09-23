@@ -1,0 +1,37 @@
+﻿MÔ HÌNH 3 LỚP
+1. Mô hình 3 lớp là gì?
+Mô hình 3 lớp hay còn được gọi là mô hình Three Layer(3-Layer), mô hình này ra đời nhằm phân chia các thành phần trong hệ thống, 
+các thành phần cùng chức năng sẽ được nhóm lại với nhau và phân chia công việc cho từng nhóm để dữ liệu không bị chồng chéo và chạy lộn xộn.
+Mô hình này phát huy hiệu quả nhất khi bạn xây dựng một hệ thống lớn, việc quản lý code và xử lý dữ liệu lỗi dễ dàng hơn.
+
+3. Lớp Presentation Layers
+	Là lớp giao tiếp với người dùng cuối để thu thập dữ liệu, hiển thị kết quả và dữ liệu thông qua các thành phần trong giao diện người sử dụng, 
+ta có thể gọi tắt là lớp giao diện.
+	Lớp này sẽ sử dụng các dịch vụ ở lớp Business Logic Layers cung cấp. Trong lập trình asp.net ta sử dụng win Forms, ASP.NET, Mobile Forms để giao tiếp với lớp này.
+	Lớp này có 2 thành phần chính là User Interface Components và User Interface Process Components.
+	User Interface Components là những thành phần chịu trách nhiệm thu thập và hiển thị thông tin lên cho người dùng cuối,
+	các lớp này bao gồm : textbox, button, dataGrid, combobox,....
+	User Interface Process Components là những thành phần chịu trách nhiệm quản lý các quy trình chuyển đổi giữa các User Interface Components.
+4. Lớp Business Logic Layers
+	Lớp này xử lý dữ liệu trước khi đưa lên hiển thị trền màn hình ở lớp Presentation Layers, lớp này sử dụng các dịch vụ từ lớp Data Access cung cấp.
+	Lớp này thực hiện kiểm tra các điều kiện, rằng buộc dữ liệu, dịch vu, tính toán, xử lý và lựa chọn kết quả trả về cho lớp Presentation Layers.
+	Trong lớp này có các thành phần chính là Business Components, Business Entities, Service Interface.
+	Business Components : là những thành phần chính thưc hiện các nhiệm vụ mà Service Interface cung cấp, BC chịu trách nhiệm kiểm tra các rằng buộc logic(constraints), 
+	các nghiệp vụ(business rules).
+	Business Entities : là thưc thể mô tả đối tượng thông tin mà hệ thống xử lý. BE cũng được dùng để trao đổi thông tin giữa lớp Presentation và Data Access.
+	Service Interface : là giao diện lập trình để cung cấp cho lớp Presentation Layers sử dụng. Lớp Presentation chỉ cần biết các 
+	dịch vụ thông qua giao diện này mà không cần phải quan tâm đến bên trong lớp này được hiện thực như thế nào.
+5. Lớp Data Access Layers
+	Lớp này thực hiện các nhiệm vụ lưu trữ dữ liệu, truy xuất dữ liệu, xóa dữ liệu rác của ứng dụng.
+	Lớp này sử dụng các hệ quản trị database như : SQL Server, Oracle, LinQ,... để thực hiện các truy vấn dữ liệu.
+6. Mô hình 3 lớp vân hành như thế nào?
+	Giống như hình 1 và hinh 2 ở trên mô hình 3 lớp được xử lý tuần tự như sau:
+	Đầu tiên người dùng(User) giao tiếp với Presentation Layers để gửi thông tin, thông tin được kiểm tra, nếu được thông qua sẽ được chuyển yêu cầu xuống lớp Business Logic Layers.
+	Tại lớp Business Logic Layers thông tin được tính toán xử lý theo yêu cầu người dùng, nếu yêu cầu này không cần tới dữ liệu tại database thì sẽ được chuyển các xử lý này cho lớp Presentation Layers.
+	Nếu yêu cầu này cần tới lớp Database thì yêu cầu này được gửi tiếp cho lớp Data Access Layers.
+	Lớp Data Access Layers thao tác trên các lệnh đưa ra và trả kết quả cho lớp Business Logic Layers và lớp này trả kết quả lại cho lớp giao diện Presentation Layers.
+
+https://tuhocict.com/generic-trong-csharp/#lap-trinh-generic-trong-c-la-gi
+
+Ôn tập lại Delegate, Action, Func
+- Genric

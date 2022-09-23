@@ -1,0 +1,7 @@
+D:\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\bin\Release\Quan Ly Nha Hang.exe.config
+D:\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\bin\Release\Quan Ly Nha Hang.exe
+D:\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\bin\Release\Quan Ly Nha Hang.pdb
+D:\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Release\Quan Ly Nha Hang.csproj.AssemblyReference.cache
+D:\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Release\Quan Ly Nha Hang.csproj.CoreCompileInputs.cache
+D:\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Release\Quan Ly Nha Hang.exe
+D:\Software Manager\Quan Ly Nha Hang\Quan Ly Nha Hang\obj\Release\Quan Ly Nha Hang.pdb

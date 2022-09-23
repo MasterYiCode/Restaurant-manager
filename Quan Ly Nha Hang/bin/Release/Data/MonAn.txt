@@ -1,0 +1,24 @@
+131241#Thit Ga#100000#502#Do Nhau
+645634#Cave#2000000#71#Gai Goi
+234347#Cave Xinh#2009909#20000#Gai Goi
+346745#Ga Hap#200000#97890#Do Hap
+364157#Lon Rung#200000#100#Do Rung
+000011#Bo Huc#10000#10#Do Uong
+110011#Tra Xanh#10000#100#Do Uong
+001121#Sting Vang#10000#100#Do Uong
+001121#Sting Do#10000#100#Do Uong
+001111#Nuoc Suoi#10000#100#Do Uong
+001221#Nuoc Lon#10000#100#Do Uong
+200001#Dua Hau#100000#100#Trang Mieng
+200002#Buoi#100000#100#Trang Mieng
+200003#Dua Vang#100000#100#Trang Mieng
+200004#Salat#100000#100#Do Nhau
+200005#Qua Chuoi#100000#100#Trang Mieng
+200006#Dua Le#100000#100#Trang Mieng
+200001#Dua Hau#100000#100#Trang Mieng
+200002#Buoi#100000#100#Trang Mieng
+200003#Dua Vang#100000#100#Trang Mieng
+200004#Salat#100000#100#Trang Mieng
+200005#Qua Chuoi#100000#100#Trang Mieng
+200006#Dua Le#100000#100#Trang Mieng
+123456#Mon Trang Mieng#2000#20#Trang Mieng
